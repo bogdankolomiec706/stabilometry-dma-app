@@ -1,0 +1,24 @@
+{
+  "name": "dma-analysis",
+  "version": "1.0.0",
+  "description": "A simple app for processing and visualizing DMA method for CoP signal",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . DmaAnalysis",
+    "build-win": "electron-packager . DmaAnalysis --overwrite --asar --platform=win32 --arch=ia32 --icon=assets/icons/win/icon.ico --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Electron Tutorial App\""
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "devDependencies": {
+    "electron": "^4.1.4",
+    "electron-packager": "^13.1.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "chart.js": "^2.8.0",
+    "jquery": "^3.4.0",
+    "plotly": "^1.0.6",
+    "popper.js": "^1.15.0",
+    "python-shell": "^1.0.7"
+  }
+}
