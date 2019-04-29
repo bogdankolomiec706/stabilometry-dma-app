@@ -1,5 +1,5 @@
 {
-  "name": "dma-analysis",
+  "name": "dma-analysis-app",
   "version": "1.0.0",
   "description": "A simple app for processing and visualizing DMA method for CoP signal",
   "main": "main.js",
